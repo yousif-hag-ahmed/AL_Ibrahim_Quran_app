@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#009688"
+    android:foregroundGravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp"
+        android:text="@string/search_for_group"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/searchGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingTop="30dp"
+        android:text="Group" />
+
+    <EditText
+        android:id="@+id/searchPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="searchPassword"
+        android:inputType="textPersonName"
+        android:text="123456" />
+
+    <Button
+        android:id="@+id/searchNow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4CAF50"
+        android:text="search Now"
+        app:backgroundTint="#176E66" />
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:hint="Create a Group"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:translationY="50dp" />
+
+    <EditText
+        android:id="@+id/createGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Group" />
+
+    <EditText
+        android:id="@+id/createPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPersonName"
+        android:text="123456" />
+
+
+    <Button
+        android:id="@+id/createNow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#469C49"
+        android:shadowColor="#4CAF50"
+        android:text="create Now"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#224CAF50"
+        android:textColorLink="#4CAF50"
+        app:backgroundTint="#176E66"
+        app:rippleColor="#4CAF50"
+        app:strokeColor="#4CAF50" />
+
+
+</LinearLayout>
